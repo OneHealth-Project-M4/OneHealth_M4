@@ -33,6 +33,6 @@ export const retrieveMedicDataService = async (
       stripUnknown: true,
     }
   );
-  console.log(medicDataResponse);
+
   return medicDataResponse;
 };
